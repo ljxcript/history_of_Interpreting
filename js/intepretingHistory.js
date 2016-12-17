@@ -72,13 +72,13 @@
 				setTimeout("nul3()", 4000);
 				setTimeout("afternul()",6000);
 				setTimeout("pottery()", 8500);
-				setTimeout("afterpottery()",12000);
+				setTimeout("afterpottery()",11000);
 				return;
 			}
 			if (count == -1) {
-				playVideo();
-				setTimeout("afterVideo()",115000);
-				return;
+				// playVideo();
+				// setTimeout("afterVideo()",115000);
+				// return;
 			}
 			if (count == 1) {
 				nul4();
@@ -190,21 +190,21 @@
 		return;
 	}
 
-	function playVideo() {
-		var v = document.getElementById("sk");
-		v.style.width = "1320px";
-	//	v.style.left = "300px";
-		v.play();
-		return;
-	}
+	// function playVideo() {
+	// 	var v = document.getElementById("sk");
+	// 	v.style.width = "1320px";
+	// //	v.style.left = "300px";
+	// 	v.play();
+	// 	return;
+	// }
 
-	function afterVideo() {
-		var v = document.getElementById("sk");
-		v.style.width = "0px";
-	//	v.style.left = "600px";
-		setTimeout("showScript()", 3000);
-		return;
-	}
+	// function afterVideo() {
+	// 	var v = document.getElementById("sk");
+	// 	v.style.width = "0px";
+	// //	v.style.left = "600px";
+	// 	setTimeout("showScript()", 3000);
+	// 	return;
+	// }
 
 	function showScript()  {
 			if ( jj < sTwo.length) {
